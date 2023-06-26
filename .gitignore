@@ -1,0 +1,35 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+*.dSYM
+.vscode/
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Local python packages
+*/.python_packages/
+
+# Byte-compiled / optimized / DLL files
+**/*/__pycache__/
+*/*.py[cod]
+*/*$py.class
+
+# Dependencies
+node_modules/
+
+# Large files
+week7/shows/name.basics.tsv
+week7/shows/title.basics.tsv
+*.db
+images/
